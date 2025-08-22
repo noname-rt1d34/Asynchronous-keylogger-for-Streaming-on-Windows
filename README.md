@@ -1,3 +1,7 @@
+This is a tool for displaying keypresses on OBS and plays an mp3 sound when a new message is recevied on twitch, I use it personally and just slapped it together on a weekend.
+
+If anyone wants to expand on it or if they want me to modify it, please feel free to reach out to me on twitch or please comment on this repository.
+
 Compiled with raylib and mingww64 Compiler flags used:
 
 -static-libstdc++ -static-libgcc -static -mwindows -O2  -lraylib -lopengl32 -lgdi32 -lwinmm -lsetupapi -lws2_32
@@ -14,9 +18,9 @@ TslGame.exe is pubg
 
 Tool will auto-close if there is no twitch handle passed in, because I was lazy and didn't do a case where it checks if it is missing
 
-If someone wants it to do more, I can do it, message me on twitch :D https://www.twitch.tv/noname_rt1d34
+Grok was used for the twitch IRC read chat process, I am still alittle confused about why it works? It seems that read only via a generic username and fake password, works..? No OATH2 or bot authentication/registration required, Twitch's API documentation does not seem to cover this method much, or I missed it?.
 
-This is my first github I've ever made too
+This is my first github I've ever made too!
 
 Hash's of KeyTracker.exe (I don't know if this will help cause the only way the exe can be replaced is if a hacker has access to this account.... And can just as easily modify this info anyway...?): 
 
