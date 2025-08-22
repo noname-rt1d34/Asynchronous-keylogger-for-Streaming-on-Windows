@@ -19,6 +19,9 @@ If someone wants it to do more, I can do it, message me on twitch :D https://www
 This is my first github I've ever made too
 
 Hash's of KeyTracker.exe (I don't know if this will help cause the only way the exe can be replaced is if a hacker has access to this account.... And can just as easily modify this info anyway...?): 
+
 SHA1: 549f4e60677a8ab46b8ddd12dcb4f3cce90ac18d
+
 MD5: 060bdf41792cdd77abea0c7fa8780a9b
+
 SHA512: 760d6c7cbc42e2460082713c915d1f414f542e10fa457e679425234f0f7d69d2e3a1b96c47c558f9711327d0e93b9410c5328cbb937cd67df119ea72b494a25f
