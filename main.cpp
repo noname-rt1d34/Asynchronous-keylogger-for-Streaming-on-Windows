@@ -4,7 +4,6 @@
 //This is my bacgkround colour on twitch
 #define TWITCHBG      CLITERAL(Color){ 30, 30, 30, 255 }
 
-//expects 2 sets of vid pid to listen to
 int main(int argc, char *argv[]) {
     uint32_t keypress[2];
     const int screenWidth = 521;
