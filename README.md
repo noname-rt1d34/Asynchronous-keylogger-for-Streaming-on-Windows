@@ -29,3 +29,13 @@ SHA1: 549f4e60677a8ab46b8ddd12dcb4f3cce90ac18d
 MD5: 060bdf41792cdd77abea0c7fa8780a9b
 
 SHA512: 760d6c7cbc42e2460082713c915d1f414f542e10fa457e679425234f0f7d69d2e3a1b96c47c558f9711327d0e93b9410c5328cbb937cd67df119ea72b494a25f
+
+Todo:
+1. Fix bug where twitchname is been used as part of whitelist
+2. Whitelist checks by last successfully found argc/argv value (instead of iterating from the start every time)
+3. Use a settings.ini to be able to dynamically pass in values, such as image sizes, refresh rate etc. Might support "skins" this way?
+4. Use a clearner code method for textures such as an array and index by keytype
+5. Have some feedback for issues, missing files etc. via a log file output or on screen pop up
+6. Investigate whether there is a faster method for handling input asynchronously (don't think so though, note I tried hidapi initially but that is blocked by HID driver)
+7. Bundle assets into a zip file, and load assets out of zip
+8. Check for any weird inputs to program can be exploited, fairly certain nothing too complicated is going on currently (eg. unusual path value for argv or non-image datafiles?)
