@@ -15,3 +15,5 @@ TslGame.exe is pubg
 Tool will auto-close if there is no twitch handle passed in, because I was lazy and didn't do a case where it checks if it is missing
 
 If someone wants it to do more, I can do it, message me on twitch :D https://www.twitch.tv/noname_rt1d34
+
+This is my first github I've ever made too
